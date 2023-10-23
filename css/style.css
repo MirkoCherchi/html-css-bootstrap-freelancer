@@ -8,3 +8,26 @@ header{
     height: 90px;
 }
 
+.mc-height-sez1{
+    height: 495px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.debug-img{
+    height: 300px;
+}
+
+.mc-height-sez3{
+    height: 705px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.mc-widht-sez3{
+    width: 60%;
+}
+
+.mc-height-sez4{
+    height: 595px;
+}

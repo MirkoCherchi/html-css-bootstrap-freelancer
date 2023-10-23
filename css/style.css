@@ -31,3 +31,19 @@ header{
 .mc-height-sez4{
     height: 595px;
 }
+
+.mc-height-footer{
+    height: 455px;   
+}
+
+.mc-color-foot{
+    background-color: #3a546d;
+}
+
+.mc-height-copyr{
+    height: 110px;
+}
+
+.mc-color-copyr{
+    background-color: #2c3e50;
+}

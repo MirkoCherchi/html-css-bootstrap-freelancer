@@ -55,3 +55,16 @@
     position: absolute;
     margin-right: 30px;
   }
+
+  .mc-i-circle a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    margin: 5px 5px;
+  }
+
+ 

@@ -10,6 +10,12 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- /bootstrap -->
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /font awesome -->
+
     <!-- my css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- /my css -->
@@ -21,58 +27,74 @@
     <header>
         <!-- menù container -->
         <div class="container">
-            <div class="mc-container-height d-flex justify-content-between align-items-center">
-                <div class="left">
-                    <h4 class="m-0">START BOOTSTRAP</h4>
+            <nav class="navbar navbar-expand-md py-3 text-uppercase" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">start bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="right d-block d-sm-none">menu</div>
-                <div class="d-none d-sm-block">
-                    <ul class="d-flex list-unstyled gap-4 m-0">
-                        <li>PORTFOLIO</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <!-- /menù container -->
     </header>
 
     <main>
         <!-- sezione 1 -->
-        <section class="mc-height-sez1">
+        <section class="mc-bg-sez1">
             <div class="container text-center">
-                <div class="debug-img pt-5">IMG</div>
+                <div class="mc-img pt-4"><img src="img/avatar.svg" class="img-fluid" alt="avatar"></div>
                 <div>
-                    <h2>START BOOTSTRAP</h2>
+                    <h1 class="display-3 text-uppercase fw-bold pt-3">start bootstrap</h1>
                 </div>
-                <div>A-B-C</div>
+
+                <div class="mc-star"><i class="fa-solid fa-star"></i></div>
+                <div class="fs-4 text-center text-uppercase mc-padding-bm">graphic artist - web designer -
+                    illustrator
+                </div>
             </div>
         </section>
         <!-- /sezione 1 -->
 
+        <!-- prova -->
+
         <!-- sezione 2 -->
-        <section class="">
-            <div class="container text-center">
-                <h3 class="pt-3">PORTFOLIO</h3>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+        <section class="portfolio">
+            <div class="container text-center mc-padding-bm">
+                <h2 class="pt-3 mc-color-sez2 display-4 fw-bold pt-5">PORTFOLIO</h2>
+                <div class="mc-star-var"><i class="fa-solid fa-star"></i></div>
+
+                <div class="row g-3">
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/cabin.png" class="rounded-4 img-fluid" alt="cabin">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/cake.png" class="rounded-4 img-fluid" alt="cake">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/circus.png" class="rounded-4 img-fluid" alt="circus">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/game.png" class="rounded-4 img-fluid" alt="game">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/safe.png" class="rounded-4 img-fluid" alt="safe">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        IMG
+                    <div class="col-12 col-lg-6 col-xxl-4">
+                        <img src="img/submarine.png" class="rounded-4 img-fluid" alt="submarine">
                     </div>
                 </div>
             </div>
@@ -123,44 +145,18 @@
         </div>
 
         <div class="mc-color-copyr">
-            <div class="container text-center mc-height-copyr">
-                COPYRIGHT
+            <div class="container text-center mc-height-copyr d-flex align-items-center justify-content-center">
+                <div>COPYRIGHT</div>
             </div>
 
         </div>
 
-
-
-
-
-
-
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 

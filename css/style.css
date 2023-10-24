@@ -35,14 +35,12 @@ header{
     padding-bottom: 90px;
 }
 
-.mc-height-sez3{
-    height: 705px;
+.mc-color-sez3{
     background-color: #1abc9c;
     color: #fff;
 }
-
-.mc-widht-sez3{
-    width: 60%;
+.mc-mb-btn{
+    margin-bottom: 50px;
 }
 
 .mc-height-sez4{

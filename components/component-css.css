@@ -56,15 +56,14 @@
     margin-right: 30px;
   }
 
-  .mc-i-circle a{
+  .component-social-icon{
     display: inline-block;
-    height: 40px;
-    width: 40px;
-    color: #fff;
+    height: 3.4375rem;
+    width: 3.4375rem;
     border: 1px solid #fff;
     border-radius: 50%;
-    line-height: 35px;
-    margin: 5px 5px;
-  }
-
- 
+    text-align: center;
+    line-height: 3.4375rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
